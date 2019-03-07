@@ -50,7 +50,7 @@ if __name__ == "__main__":
     import random
     obj = Detector()
 
-    for img in ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]:
+    for img in ["8.jpg"]:
         input_image = join(BASE_PATH, "assets", img)
         out_image = join(BASE_PATH, "assets", "out_" + img)
         status, msg = obj.replacement(input_image, out_image, random.randint(1, 3))
