@@ -26,7 +26,7 @@ References:
 ```
 
 ## Tips
-When try to function `get_landmarks_from_image` to predict:
+When try to invoke function `get_landmarks_from_image` to predict:
 >
 > AttributeError: module 'torch.nn.functional' has no attribute 'interpolate'
 
