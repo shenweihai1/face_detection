@@ -1,5 +1,5 @@
 ### face_detection
-using the pre-trained model from face_alignment to recognize the face object from the input image based on [How far are we from solving the 2D \& 3D Face Alignment problem](https://adrianbulat.com/face-alignment). **using the others' [mode](https://github.com/1adrianb/face-alignment)! **
+using the pre-trained model from face_alignment to recognize the face object from the input image based on [How far are we from solving the 2D \& 3D Face Alignment problem](https://adrianbulat.com/face-alignment). **using the others' [mode](https://github.com/1adrianb/face-alignment)!**
 
 
 
