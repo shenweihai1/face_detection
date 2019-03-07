@@ -1,4 +1,4 @@
-# Face_detection
+# Face detection
 using the pre-trained model from [face_alignment](https://github.com/1adrianb/face-alignment) to recognize the face object from the input image based on [How far are we from solving the 2D \& 3D Face Alignment problem](https://www.adrianbulat.com/face-alignment). **using Adrian's model, not training the model by myself**
 ![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/shenweihai1/face_detection/master/assets/face_dection.jpg)
 
