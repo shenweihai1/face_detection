@@ -9,6 +9,11 @@ conda install -c 1adrianb face_alignment --name=conda_envs
 conda install PIL --name=conda_envs
 ```
 
+## Usage
+```
+python detector.py
+```
+
 ## Data-set
 LS3D-W is a large-scale 3D face alignment dataset constructed by annotating the images from AFLW[2], 300VW[3], 300W[4] and FDDB[5] in a consistent manner with 68 points using the automatic method described in [1]. To gain access to the dataset please enter your email address in the following form. You will shortly receive an email at the specified address containing the download link
 ``` 
