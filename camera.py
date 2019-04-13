@@ -4,16 +4,13 @@ import datetime
 import time
 import os
 
-
 cap = cv2.VideoCapture(0)
-
 count = 1
 
 try:
     os.stat("tmp2")
 except:
     os.mkdir("tmp2")
-    
 
 while (True):
     ret, frame = cap.read()
