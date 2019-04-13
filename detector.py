@@ -13,6 +13,7 @@ STATUS = {
     3: join(BASE_PATH, 'emoji/n.jpg'),  # neutral
 }
 
+# https://github.com/kuangliu/pytorch-cifar
 
 class Detector(object):
     def __init__(self, device="cpu"):
