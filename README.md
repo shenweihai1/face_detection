@@ -2,6 +2,12 @@
 using the pre-trained model from [face_alignment](https://github.com/1adrianb/face-alignment) to recognize the face object from the input image based on [How far are we from solving the 2D \& 3D Face Alignment problem](https://www.adrianbulat.com/face-alignment). **using Adrian's model, not training the model by myself**
 ![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/shenweihai1/face_detection/master/assets/face_dection.jpg)
 
+# Procedures
+1. Using readily-available model(face_aligmnent) to get fixed 68 points to represent face in the given image
+![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/shenweihai1/face_detection/master/assets/fc_ws.jpg)
+2. From those 68 points to get the upper-left point and lower-right point to a bounding box
+3. Scale up the emoji image according to the ratio of the emoji image's width to the bouding box's width
+4. Cover the face with scaled emoji image in the corresponding position
 
 ## Installation
 ```
